@@ -1,0 +1,52 @@
+#popup {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    position: fixed;
+    left: 750px;
+    top: 100px;
+    z-index: 9; 
+    border: 1px solid #333;
+    font-size: 14px;
+    /*
+    z-index 가 높을수록 위에 배치된다.
+    */
+    box-shadow: rgb(0,0,0,0.5) 0 0 0 9999px;
+    /*
+    box-shodow : 색상(빨,초,파,투명도) x, y, 테두리 둥근정도, 크기
+    */
+    display: none;
+}
+
+#popup>div:first-child {
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#popup>div:nth-child(2) {
+    background-color: #fff;
+    font-size: 16px;
+
+}
+
+#popup>div:nth-child(2)>p {
+    margin-bottom: 30px;
+}
+
+#popup>div:nth-child(3) {
+    background-color: #fff;
+    position: relative;
+    top: 234px
+    /*
+    top 양수 기입시
+    밑으로 내려간다...
+    */
+}
+
+#popup>div:nth-child(3)>img {
+    position: relative;
+    left: 448px;
+}

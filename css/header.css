@@ -1,0 +1,48 @@
+#header>#nav>#gnb {
+    float: right;
+}
+
+#header>#nav>#gnb>li{
+    float: left;
+}
+
+#header>#nav>#gnb>li>a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#gnb li a:hover{
+    /*
+        hover - 클릭시 반응형 효과만들때 사용
+
+        >를 쓰지않을시 밑에 a전부에 
+        적용하는 환경값을 만들 수 있다.
+    */
+    background-color: black;
+    color: #fff;
+}
+
+#lnb {
+    display : none;
+    /*
+        display : none;
+            - 시작전에 숨긴다. 터치하기전에 
+    */
+}
+
+#lnb>li>a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
